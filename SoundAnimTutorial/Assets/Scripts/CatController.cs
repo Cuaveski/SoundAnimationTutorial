@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CatController : MonoBehaviour
+
+
 {
     public AudioClip musicClipOne;
 
@@ -11,6 +13,7 @@ public class CatController : MonoBehaviour
     public AudioSource musicSource;
 
     Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
